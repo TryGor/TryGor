@@ -1,0 +1,22 @@
+https://stackoverflow.com/questions/42748396/mysql-is-not-appearing-in-choose-data-source-for-visual-studio-2017
+
+https://www.youtube.com/watch?v=V2A8tcb_YyY
+
+https://www.youtube.com/watch?v=gfYm5GTYOdQ
+
+CRUD Example's
+https://www.youtube.com/watch?v=MSuKkF7Ff5g
+ 
+https://www.youtube.com/watch?v=U3bVc7E6UHA
+
+https://www.youtube.com/watch?v=yh0A9rGXp1M
+
+https://www.youtube.com/watch?v=deRSq-Fb2BM  ****
+
+http://1bestcsharp.blogspot.ie/2015/03/c-how-to-insert-update-delete-data-from-mysql-database-using-c.html
+
+ENCRYPTION
+https://www.youtube.com/watch?v=-HBJlDu7_ys
+
+MySQL Unique class
+https://youtu.be/WG3Hwk7Yp48
