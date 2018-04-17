@@ -81,4 +81,4 @@ insert into login(username, password)
 values ('Antonio', 'Antonio123');
 
 insert into cars(make, model, productionyear, gearbox, carengine, description, picture)
-values ('Rimac', 'C_Two', '2018', 'Two independent two-speed, Two independent single-speed', 'Electric', 'The fastest and strongest car in the world', LOAD_FILE('C:\Downloads2\rimac-ctwo.jpg'));
+values ('Rimac', 'C_Two', '2018', 'Two independent two-speed, Two independent single-speed', 'Electric', 'The fastest and strongest car in the world', LOAD_FILE('C:\Downloads2\rimac-ctwo.jpg');
