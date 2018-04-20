@@ -28,7 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+<<<<<<< HEAD
             this.components = new System.ComponentModel.Container();
+=======
+>>>>>>> 4d2bcf3e42206fda73109bc753431112bce0f40f
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -69,11 +72,14 @@
             this.panel8 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
+<<<<<<< HEAD
             this.panel = new System.Windows.Forms.Panel();
             this.timer = new System.Windows.Forms.Timer(this.components);
             this.lblDateTime = new System.Windows.Forms.Label();
             this.lblDate = new System.Windows.Forms.Label();
             this.lblTime = new System.Windows.Forms.Label();
+=======
+>>>>>>> 4d2bcf3e42206fda73109bc753431112bce0f40f
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel7.SuspendLayout();
@@ -84,7 +90,10 @@
             this.panel11.SuspendLayout();
             this.panel9.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+<<<<<<< HEAD
             this.panel.SuspendLayout();
+=======
+>>>>>>> 4d2bcf3e42206fda73109bc753431112bce0f40f
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -396,7 +405,10 @@
             // 
             // btnCars
             // 
+<<<<<<< HEAD
             this.btnCars.Cursor = System.Windows.Forms.Cursors.Hand;
+=======
+>>>>>>> 4d2bcf3e42206fda73109bc753431112bce0f40f
             this.btnCars.Font = new System.Drawing.Font("Constantia", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCars.ForeColor = System.Drawing.Color.Black;
             this.btnCars.Location = new System.Drawing.Point(0, 0);
@@ -478,6 +490,7 @@
             this.panel4.Size = new System.Drawing.Size(1, 617);
             this.panel4.TabIndex = 13;
             // 
+<<<<<<< HEAD
             // panel
             // 
             this.panel.BackColor = System.Drawing.Color.LightSteelBlue;
@@ -522,13 +535,18 @@
             this.lblTime.Size = new System.Drawing.Size(0, 13);
             this.lblTime.TabIndex = 13;
             // 
+=======
+>>>>>>> 4d2bcf3e42206fda73109bc753431112bce0f40f
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Lavender;
             this.ClientSize = new System.Drawing.Size(1116, 641);
+<<<<<<< HEAD
             this.Controls.Add(this.panel);
+=======
+>>>>>>> 4d2bcf3e42206fda73109bc753431112bce0f40f
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.menuStrip1);
             this.ForeColor = System.Drawing.Color.White;
@@ -550,8 +568,11 @@
             this.panel11.ResumeLayout(false);
             this.panel9.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+<<<<<<< HEAD
             this.panel.ResumeLayout(false);
             this.panel.PerformLayout();
+=======
+>>>>>>> 4d2bcf3e42206fda73109bc753431112bce0f40f
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -597,10 +618,13 @@
         private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.Button btnUsers;
         private System.Windows.Forms.Button btnLogOut;
+<<<<<<< HEAD
         private System.Windows.Forms.Panel panel;
         private System.Windows.Forms.Label lblDateTime;
         private System.Windows.Forms.Timer timer;
         private System.Windows.Forms.Label lblTime;
         private System.Windows.Forms.Label lblDate;
+=======
+>>>>>>> 4d2bcf3e42206fda73109bc753431112bce0f40f
     }
 }

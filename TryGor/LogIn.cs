@@ -41,8 +41,11 @@ namespace TryGor
         private void LogIn_Load(object sender, EventArgs e)
         {
             textBox_Password.UseSystemPasswordChar = true;
+<<<<<<< HEAD
             lblDate.Text = DateTime.Now.ToLongDateString();
             lblTime.Text = DateTime.Now.ToLongTimeString();
+=======
+>>>>>>> 4d2bcf3e42206fda73109bc753431112bce0f40f
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
@@ -54,7 +57,11 @@ namespace TryGor
 
         private void btnClose_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             Application.Exit();
+=======
+            this.Dispose();
+>>>>>>> 4d2bcf3e42206fda73109bc753431112bce0f40f
         }
 
         private void btnLogOn_Click(object sender, EventArgs e)
@@ -96,12 +103,15 @@ namespace TryGor
                 mn.Show();
             }
         }
+<<<<<<< HEAD
 
         private void timer1_Tick(object sender, EventArgs e)
         {
             lblTime.Text = DateTime.Now.ToLongTimeString();
             timer1.Start();
         }
+=======
+>>>>>>> 4d2bcf3e42206fda73109bc753431112bce0f40f
     }
 }
 

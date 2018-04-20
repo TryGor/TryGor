@@ -41,10 +41,13 @@
             this.btnLogOn = new System.Windows.Forms.Button();
             this.progressBar = new System.Windows.Forms.ProgressBar();
             this.timer = new System.Windows.Forms.Timer(this.components);
+<<<<<<< HEAD
             this.lblDateTime = new System.Windows.Forms.Label();
             this.lblDate = new System.Windows.Forms.Label();
             this.lblTime = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+=======
+>>>>>>> 4d2bcf3e42206fda73109bc753431112bce0f40f
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -97,7 +100,11 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Maroon;
+<<<<<<< HEAD
             this.label1.Location = new System.Drawing.Point(166, 304);
+=======
+            this.label1.Location = new System.Drawing.Point(165, 271);
+>>>>>>> 4d2bcf3e42206fda73109bc753431112bce0f40f
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(0, 20);
             this.label1.TabIndex = 8;
@@ -148,6 +155,7 @@
             this.timer.Interval = 5;
             this.timer.Tick += new System.EventHandler(this.timer_Tick);
             // 
+<<<<<<< HEAD
             // lblDateTime
             // 
             this.lblDateTime.AutoSize = true;
@@ -181,6 +189,8 @@
             this.timer1.Interval = 1000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+=======
+>>>>>>> 4d2bcf3e42206fda73109bc753431112bce0f40f
             // LogIn
             // 
             this.AcceptButton = this.btnLogOn;
@@ -189,9 +199,12 @@
             this.BackColor = System.Drawing.Color.White;
             this.CancelButton = this.btnClose;
             this.ClientSize = new System.Drawing.Size(771, 318);
+<<<<<<< HEAD
             this.Controls.Add(this.lblTime);
             this.Controls.Add(this.lblDate);
             this.Controls.Add(this.lblDateTime);
+=======
+>>>>>>> 4d2bcf3e42206fda73109bc753431112bce0f40f
             this.Controls.Add(this.progressBar);
             this.Controls.Add(this.btnLogOn);
             this.Controls.Add(this.label1);
@@ -227,10 +240,13 @@
         private System.Windows.Forms.Button btnLogOn;
         private System.Windows.Forms.ProgressBar progressBar;
         private System.Windows.Forms.Timer timer;
+<<<<<<< HEAD
         private System.Windows.Forms.Label lblDateTime;
         private System.Windows.Forms.Label lblDate;
         private System.Windows.Forms.Label lblTime;
         private System.Windows.Forms.Timer timer1;
+=======
+>>>>>>> 4d2bcf3e42206fda73109bc753431112bce0f40f
     }
 }
 

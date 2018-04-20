@@ -24,16 +24,28 @@ namespace TryGor
 
         private void btnServices_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             //this.Hide();
             Services ss = new Services();
             ss.Show();
+=======
+            this.Hide();
+            Users us = new Users();
+            us.Show();
+>>>>>>> 4d2bcf3e42206fda73109bc753431112bce0f40f
         }
 
         private void btnReports_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             //this.Hide();
             Reports rp = new Reports();
             rp.Show();
+=======
+            this.Hide();
+            Users us = new Users();
+            us.Show();
+>>>>>>> 4d2bcf3e42206fda73109bc753431112bce0f40f
         }
 
         private void btnPwrUser_Click(object sender, EventArgs e)
@@ -83,6 +95,7 @@ namespace TryGor
              Cars ca = new Cars();
              ca.Show();
         }
+<<<<<<< HEAD
 
         private void panel_Paint(object sender, PaintEventArgs e)
         {
@@ -95,5 +108,7 @@ namespace TryGor
             lblTime.Text = DateTime.Now.ToLongTimeString();
             timer.Start();
         }
+=======
+>>>>>>> 4d2bcf3e42206fda73109bc753431112bce0f40f
     }
 }

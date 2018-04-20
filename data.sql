@@ -21,11 +21,19 @@ create table cars(
 id                               int             not null primary key auto_increment,
 make                             varchar(50)     not null,
 model                            varchar(50)     not null,
+<<<<<<< HEAD
 productionyear                   varchar(4),
 gearbox							 varchar(60),
 carengine						 varchar(50),
 description                      varchar(2000),
 picture                          longblob	     
+=======
+productionyear                   int(4),
+gearbox							 varchar(60),
+carengine						 varchar(50),
+description                      varchar(200),
+picture                          blob
+>>>>>>> 4d2bcf3e42206fda73109bc753431112bce0f40f
 )engine=innodb;
 
 
@@ -81,6 +89,7 @@ insert into login(username, password)
 values ('Antonio', 'Antonio123');
 
 insert into cars(make, model, productionyear, gearbox, carengine, description, picture)
+<<<<<<< HEAD
 values ('Rimac', 'C_Two', '2018', 'Two independent two-speed, Two independent single-speed', 'Electric', 'The fastest and strongest car in the world', LOAD_FILE('C:/Projects/TryGor/Pictures/rimac-ctwo.png');
 
 insert into cars(make, model, productionyear, gearbox, carengine, description, picture)
@@ -88,3 +97,6 @@ values ('Rimac', 'Concept One', '2017', 'Two independent two-speed, Two independ
 
 insert into cars(make, model, productionyear, gearbox, carengine, description, picture)
 values ('BMW 645 Schnitzer', '645', '2017', 'Double clutch', '4.0 Petrol', 'M Performance tuned by AC Schnitzer', LOAD_FILE('C:/Projects/TryGor/Pictures/ACSchnitzerBMWM6.png');
+=======
+values ('Rimac', 'C_Two', '2018', 'Two independent two-speed, Two independent single-speed', 'Electric', 'The fastest and strongest car in the world', LOAD_FILE('C:\Downloads2\rimac-ctwo.jpg');
+>>>>>>> 4d2bcf3e42206fda73109bc753431112bce0f40f

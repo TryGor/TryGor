@@ -18,7 +18,10 @@ namespace TryGor
         MySqlDataReader mdr;
         MySqlDataAdapter adapter;
         DataTable dt = new DataTable();
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4d2bcf3e42206fda73109bc753431112bce0f40f
         public Users()
         {
             InitializeComponent();
@@ -283,6 +286,7 @@ namespace TryGor
             txtPhone.Text = "";
         }
 
+<<<<<<< HEAD
         private void dataGridView_KeyDown(object sender, KeyEventArgs e)
         {
             txtUserID.Text = dataGridView.CurrentRow.Cells[0].Value.ToString();
@@ -302,6 +306,8 @@ namespace TryGor
             txtDOB.Text = dataGridView.CurrentRow.Cells[4].Value.ToString();
             txtPhone.Text = dataGridView.CurrentRow.Cells[5].Value.ToString();
         }
+=======
+>>>>>>> 4d2bcf3e42206fda73109bc753431112bce0f40f
     }
 }
 

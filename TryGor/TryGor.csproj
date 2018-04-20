@@ -94,6 +94,7 @@
     <Compile Include="RegForm.Designer.cs">
       <DependentUpon>RegForm.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="Reports.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -106,6 +107,8 @@
     <Compile Include="Services.Designer.cs">
       <DependentUpon>Services.cs</DependentUpon>
     </Compile>
+=======
+>>>>>>> 4d2bcf3e42206fda73109bc753431112bce0f40f
     <Compile Include="SqlDbConnect.cs" />
     <Compile Include="Users.cs">
       <SubType>Form</SubType>
@@ -135,12 +138,15 @@
     <EmbeddedResource Include="RegForm.resx">
       <DependentUpon>RegForm.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
     <EmbeddedResource Include="Reports.resx">
       <DependentUpon>Reports.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Services.resx">
       <DependentUpon>Services.cs</DependentUpon>
     </EmbeddedResource>
+=======
+>>>>>>> 4d2bcf3e42206fda73109bc753431112bce0f40f
     <EmbeddedResource Include="Users.resx">
       <DependentUpon>Users.cs</DependentUpon>
     </EmbeddedResource>
@@ -195,8 +201,11 @@
     <Content Include="docs\MySqlParameter.xml" />
     <Content Include="docs\MySqlParameterCollection.xml" />
     <Content Include="docs\MySqlTransaction.xml" />
+<<<<<<< HEAD
     <None Include="Resources\search-icon25.png" />
     <None Include="Resources\search-icon20.png" />
+=======
+>>>>>>> 4d2bcf3e42206fda73109bc753431112bce0f40f
     <None Include="Resources\newUser.png" />
     <None Include="Resources\search-icon.png" />
     <None Include="Resources\search-icon.jpg" />

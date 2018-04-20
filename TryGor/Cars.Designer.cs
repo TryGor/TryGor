@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Cars));
             this.dataGridView = new System.Windows.Forms.DataGridView();
+<<<<<<< HEAD
             this.btnSelectPicture = new System.Windows.Forms.Button();
             this.lblID = new System.Windows.Forms.Label();
             this.txtID = new System.Windows.Forms.TextBox();
@@ -57,12 +58,17 @@
             this.lblModSearch = new System.Windows.Forms.Label();
             this.btnSearch = new System.Windows.Forms.Button();
             this.pictureBox = new System.Windows.Forms.PictureBox();
+=======
+            this.pictureBox = new System.Windows.Forms.PictureBox();
+            this.btnSelectPicture = new System.Windows.Forms.Button();
+>>>>>>> 4d2bcf3e42206fda73109bc753431112bce0f40f
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridView
             // 
+<<<<<<< HEAD
             this.dataGridView.BackgroundColor = System.Drawing.SystemColors.Window;
             this.dataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView.Location = new System.Drawing.Point(12, 321);
@@ -326,21 +332,52 @@
             this.btnSearch.Text = "Search";
             this.btnSearch.UseVisualStyleBackColor = false;
             this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
+=======
+            this.dataGridView.AllowUserToOrderColumns = true;
+            this.dataGridView.BackgroundColor = System.Drawing.Color.Lavender;
+            this.dataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView.Location = new System.Drawing.Point(307, 370);
+            this.dataGridView.Name = "dataGridView";
+            this.dataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dataGridView.Size = new System.Drawing.Size(841, 316);
+            this.dataGridView.TabIndex = 0;
+>>>>>>> 4d2bcf3e42206fda73109bc753431112bce0f40f
             // 
             // pictureBox
             // 
             this.pictureBox.BackColor = System.Drawing.Color.Lavender;
+<<<<<<< HEAD
             this.pictureBox.Location = new System.Drawing.Point(865, 79);
             this.pictureBox.Name = "pictureBox";
             this.pictureBox.Size = new System.Drawing.Size(289, 178);
+=======
+            this.pictureBox.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox.Name = "pictureBox";
+            this.pictureBox.Size = new System.Drawing.Size(289, 215);
+>>>>>>> 4d2bcf3e42206fda73109bc753431112bce0f40f
             this.pictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox.TabIndex = 1;
             this.pictureBox.TabStop = false;
             // 
+<<<<<<< HEAD
+=======
+            // btnSelectPicture
+            // 
+            this.btnSelectPicture.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.btnSelectPicture.Location = new System.Drawing.Point(307, 12);
+            this.btnSelectPicture.Name = "btnSelectPicture";
+            this.btnSelectPicture.Size = new System.Drawing.Size(120, 32);
+            this.btnSelectPicture.TabIndex = 2;
+            this.btnSelectPicture.Text = "Select Picture";
+            this.btnSelectPicture.UseVisualStyleBackColor = false;
+            this.btnSelectPicture.Click += new System.EventHandler(this.btnSelectPicture_Click);
+            // 
+>>>>>>> 4d2bcf3e42206fda73109bc753431112bce0f40f
             // Cars
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+<<<<<<< HEAD
             this.BackColor = System.Drawing.Color.GhostWhite;
             this.ClientSize = new System.Drawing.Size(1160, 620);
             this.Controls.Add(this.lblModSearch);
@@ -372,6 +409,12 @@
             this.Controls.Add(this.pictureBox);
             this.Controls.Add(this.dataGridView);
             this.Cursor = System.Windows.Forms.Cursors.Hand;
+=======
+            this.ClientSize = new System.Drawing.Size(1160, 698);
+            this.Controls.Add(this.btnSelectPicture);
+            this.Controls.Add(this.pictureBox);
+            this.Controls.Add(this.dataGridView);
+>>>>>>> 4d2bcf3e42206fda73109bc753431112bce0f40f
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Cars";
@@ -381,7 +424,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).EndInit();
             this.ResumeLayout(false);
+<<<<<<< HEAD
             this.PerformLayout();
+=======
+>>>>>>> 4d2bcf3e42206fda73109bc753431112bce0f40f
 
         }
 
@@ -390,6 +436,7 @@
         private System.Windows.Forms.DataGridView dataGridView;
         private System.Windows.Forms.PictureBox pictureBox;
         private System.Windows.Forms.Button btnSelectPicture;
+<<<<<<< HEAD
         private System.Windows.Forms.Label lblID;
         private System.Windows.Forms.TextBox txtID;
         private System.Windows.Forms.TextBox txtMake;
@@ -415,5 +462,7 @@
         private System.Windows.Forms.Button btnSearch;
         private System.Windows.Forms.TextBox txtModSearch;
         private System.Windows.Forms.Label lblModSearch;
+=======
+>>>>>>> 4d2bcf3e42206fda73109bc753431112bce0f40f
     }
 }

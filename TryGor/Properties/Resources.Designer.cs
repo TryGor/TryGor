@@ -113,6 +113,7 @@ namespace TryGor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+<<<<<<< HEAD
         internal static System.Drawing.Bitmap search_icon20 {
             get {
                 object obj = ResourceManager.GetObject("search-icon20", resourceCulture);
@@ -133,6 +134,8 @@ namespace TryGor.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+=======
+>>>>>>> 4d2bcf3e42206fda73109bc753431112bce0f40f
         internal static System.Drawing.Bitmap user_login_icon {
             get {
                 object obj = ResourceManager.GetObject("user-login-icon", resourceCulture);

@@ -15,9 +15,12 @@ namespace TryGor
 {
     public partial class Cars : Form
     {
+<<<<<<< HEAD
         MySqlDataReader mdr;
         MySqlCommand mysqlcommand;
 
+=======
+>>>>>>> 4d2bcf3e42206fda73109bc753431112bce0f40f
         public Cars()
         {
             InitializeComponent();
@@ -37,6 +40,7 @@ namespace TryGor
 
         private void Cars_Load(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             FillDGV("");
         }
 
@@ -44,10 +48,19 @@ namespace TryGor
         {
             MySqlCommand command = new MySqlCommand("SELECT * FROM data.cars WHERE CONCAT " +
                 "(id, make, model, productionyear, gearbox, carengine, description) LIKE '%" + valueToSearch + "%'", connection);
+=======
+            FillDGV();
+        }
+
+        public void FillDGV()
+        {
+            MySqlCommand command = new MySqlCommand("SELECT * FROM data.cars", connection);
+>>>>>>> 4d2bcf3e42206fda73109bc753431112bce0f40f
             MySqlDataAdapter adapter = new MySqlDataAdapter(command);
             DataTable table = new DataTable();
 
             adapter.Fill(table);
+<<<<<<< HEAD
 
             dataGridView.RowTemplate.Height = 60;
             dataGridView.AllowUserToAddRows = false;
@@ -55,6 +68,14 @@ namespace TryGor
             dataGridView.AllowUserToResizeColumns = false;
             dataGridView.AllowUserToResizeRows = false;
             dataGridView.AllowUserToOrderColumns = false;
+=======
+            dataGridView.RowTemplate.Height = 60;
+            dataGridView.AllowUserToAddRows = false;
+            /*dataGridView.AllowUserToDeleteRows = false;
+            dataGridView.AllowUserToResizeColumns = false;
+            dataGridView.AllowUserToResizeRows = false;
+            dataGridView.AllowUserToOrderColumns = false;*/
+>>>>>>> 4d2bcf3e42206fda73109bc753431112bce0f40f
             dataGridView.DataSource = table;
 
             DataGridViewImageColumn imgCol = new DataGridViewImageColumn();
@@ -62,6 +83,7 @@ namespace TryGor
             imgCol.ImageLayout = DataGridViewImageCellLayout.Stretch;
 
             dataGridView.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+<<<<<<< HEAD
       
         }
 
@@ -133,11 +155,19 @@ namespace TryGor
         }
 
         private void dataGridView_KeyUp(object sender, KeyEventArgs e)
+=======
+            
+                 
+        }
+
+        private void dataGridView_Click(object sender, EventArgs e)
+>>>>>>> 4d2bcf3e42206fda73109bc753431112bce0f40f
         {
             Byte[] img = (Byte[])dataGridView.CurrentRow.Cells[7].Value;
             MemoryStream ms = new MemoryStream(img);
 
             pictureBox.Image = Image.FromStream(ms);
+<<<<<<< HEAD
 
             txtID.Text = dataGridView.CurrentRow.Cells[0].Value.ToString();
             txtMake.Text = dataGridView.CurrentRow.Cells[1].Value.ToString();
@@ -379,3 +409,9 @@ namespace TryGor
     }
 }
 
+=======
+        }
+
+    }
+}
+>>>>>>> 4d2bcf3e42206fda73109bc753431112bce0f40f
