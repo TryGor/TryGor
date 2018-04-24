@@ -42,7 +42,7 @@ namespace TryGor
             rp.Show();
         }
 
-        private void btnPwrUser_Click_1(object sender, EventArgs e)
+        private void btnPwrUser_Click(object sender, EventArgs e)
         {
             //this.Hide();
             RegForm rf = new RegForm();
@@ -51,7 +51,7 @@ namespace TryGor
 
         private void btnClose_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Are You Sure To Exit GT_ERC?", "Exit", MessageBoxButtons.OKCancel) == DialogResult.OK)
+            //if (MessageBox.Show("Are You Sure You Want To Exit GT_ERC?", "Exit", MessageBoxButtons.OKCancel) == DialogResult.OK)
             {
                 Application.Exit();
             }
@@ -59,7 +59,7 @@ namespace TryGor
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Are You Sure To Exit GT_ERC?", "Exit", MessageBoxButtons.OKCancel) == DialogResult.OK)
+            //if (MessageBox.Show("Are You Sure You Want To Exit GT_ERC?", "Exit", MessageBoxButtons.OKCancel) == DialogResult.OK)
             {
                 Application.Exit();
             }
@@ -80,11 +80,6 @@ namespace TryGor
 
         private void btnCars_Click(object sender, EventArgs e)
         {
-            /*
-            this.IsMdiContainer = true;
-            Cars ca = new Cars();
-            ca.MdiParent = this;
-            ca.Show();*/
 
             Cars ca = new Cars();
             ca.Show();
@@ -102,14 +97,14 @@ namespace TryGor
             timer.Start();
         }
 
-        /*protected override void OnFormClosing(FormClosingEventArgs e)
+        protected override void OnFormClosing(FormClosingEventArgs e)
         {
             base.OnFormClosing(e);
 
             if (e.CloseReason == CloseReason.WindowsShutDown) return;
             Application.Exit();
             // Confirm user wants to close
-            switch (MessageBox.Show(this, "Are you sure you want to close?", "Closing", MessageBoxButtons.YesNo))
+            switch (MessageBox.Show(this, "ARE YOU SURE YOU WANT TO CLOSE GT_ERC?", "CLOSING", MessageBoxButtons.YesNo))
             {
                 case DialogResult.No:
                     e.Cancel = true;
@@ -117,6 +112,6 @@ namespace TryGor
                 default:
                     break;
             }
-        }*/
+        }
     }
 }
